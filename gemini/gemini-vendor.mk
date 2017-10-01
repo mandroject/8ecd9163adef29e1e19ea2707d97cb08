@@ -155,10 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov4688_primax.so:system/vendor/lib/libmmcamera_ov4688_primax.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so
-
-
-PRODUCT_COPY_FILES += \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/xiaomi/gemini/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/gemini/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/gemini/proprietary/bin/cnd:system/bin/cnd \
@@ -174,6 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/xiaomi/gemini/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/gemini/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/xiaomi/gemini/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/xiaomi/gemini/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/gemini/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/gemini/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -641,6 +639,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
